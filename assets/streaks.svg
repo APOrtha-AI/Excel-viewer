@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <g stroke="#ff6a13" stroke-linecap="round" opacity="0.55">
+    <line x1="-50" y1="120" x2="900" y2="-200" stroke-width="2" opacity="0.35"/>
+    <line x1="-50" y1="220" x2="900" y2="-100" stroke-width="3" opacity="0.5"/>
+    <line x1="-50" y1="320" x2="900" y2="0" stroke-width="2" opacity="0.4"/>
+    <line x1="-50" y1="440" x2="900" y2="120" stroke-width="4" opacity="0.6"/>
+    <line x1="-50" y1="560" x2="900" y2="240" stroke-width="2" opacity="0.35"/>
+    <line x1="-50" y1="660" x2="900" y2="340" stroke-width="3" opacity="0.5"/>
+  </g>
+</svg>

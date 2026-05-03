@@ -8,8 +8,8 @@
 </head>
 <body>
   <header class="site-header">
-    <a href="#" class="logo" data-cms="logo">
-      <img src="" alt="APOrtha Sports" data-cms-image="logo" />
+    <a href="#" class="logo">
+      <img src="assets/logo.svg" alt="APOrtha Sports" />
     </a>
     <nav class="main-nav">
       <a href="#prinzipien">Prinzipien</a>
@@ -18,7 +18,7 @@
       <a href="#beratung">Beratung</a>
       <a href="#where-to-buy">Where to buy</a>
     </nav>
-    <a href="#produkte" class="btn btn-primary">Produkte ansehen</a>
+    <a href="#produkte" class="btn btn-primary header-cta">Produkte ansehen</a>
     <button class="nav-toggle" aria-label="Menü öffnen">
       <span></span><span></span><span></span>
     </button>
@@ -27,6 +27,8 @@
   <main class="grid">
     <!-- Hero -->
     <section class="card card-hero card-dark" data-cms="hero">
+      <div class="streaks" aria-hidden="true"></div>
+      <img class="swoosh-bg" src="assets/swoosh.svg" alt="" aria-hidden="true" />
       <div class="card-content">
         <h1 class="hero-title">
           NICHT NEU.<br />
@@ -42,16 +44,15 @@
           <a href="#prinzipien" class="btn btn-ghost">Prinzipien verstehen</a>
         </div>
       </div>
-      <div class="card-media" data-cms-image="hero">
-        <img src="" alt="" />
+      <div class="card-media hero-media" data-cms-image="hero">
+        <img src="assets/placeholder-athlete.svg" alt="" />
       </div>
     </section>
 
     <!-- Card: Amino Pattern -->
     <article class="card card-light" data-cms="amino-pattern">
-      <div class="card-media" data-cms-image="amino-pattern">
-        <img src="" alt="" />
-      </div>
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">AMINO<br />PATTERN.</h2>
         <p>Nicht mehr Protein.<br />Sondern sinnvollere Proteinversorgung.</p>
@@ -61,10 +62,15 @@
           <li>ohne unnötigen Ballast</li>
         </ul>
       </div>
+      <div class="card-media" data-cms-image="amino-pattern">
+        <img src="assets/placeholder-dark.svg" alt="" />
+      </div>
     </article>
 
     <!-- Card: Hydration -->
     <article class="card card-light" data-cms="hydration">
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">HYDRATION<br />MIT SYSTEM.</h2>
         <p>OsmoCore und<br />Hydration Powder.</p>
@@ -75,12 +81,14 @@
         </ul>
       </div>
       <div class="card-media" data-cms-image="hydration">
-        <img src="" alt="" />
+        <img src="assets/placeholder-dark.svg" alt="" />
       </div>
     </article>
 
     <!-- Card: Beratung -->
     <article class="card card-light" data-cms="beratung">
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">
           BERATUNG,<br /><span class="accent">DIE WEITERBRINGT.</span>
@@ -98,12 +106,14 @@
         </p>
       </div>
       <div class="card-media" data-cms-image="beratung">
-        <img src="" alt="" />
+        <img src="assets/placeholder-dark.svg" alt="" />
       </div>
     </article>
 
     <!-- Card: Haltung -->
     <article class="card card-light" data-cms="haltung">
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">
           HALTUNG<br />TRIFFT <span class="accent">LEISTUNG.</span>
@@ -116,12 +126,14 @@
         </ul>
       </div>
       <div class="card-media" data-cms-image="haltung">
-        <img src="" alt="" />
+        <img src="assets/placeholder-dark.svg" alt="" />
       </div>
     </article>
 
     <!-- Card: Collagen -->
     <article class="card card-light" data-cms="collagen">
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">
           COLLAGEN.<br /><span class="accent">NACH ANWENDUNG GEWÄHLT.</span>
@@ -129,12 +141,14 @@
         <p>FORTIGEL®, TENDOFORTE®,<br />BODYBALANCE®, PeptENDURE®.</p>
       </div>
       <div class="card-media" data-cms-image="collagen">
-        <img src="" alt="" />
+        <img src="assets/placeholder-dark.svg" alt="" />
       </div>
     </article>
 
     <!-- Card: Mehr als Produkte -->
     <article class="card card-light" data-cms="mehr-als-produkte">
+      <img class="card-logo" src="assets/logo.svg" alt="" aria-hidden="true" />
+      <div class="streaks streaks-light" aria-hidden="true"></div>
       <div class="card-content">
         <h2 class="card-title">
           MEHR ALS<br /><span class="accent">PRODUKTE.</span>
@@ -145,8 +159,8 @@
           Just effective.
         </p>
       </div>
-      <div class="card-media" data-cms-image="mehr-als-produkte">
-        <img src="" alt="" />
+      <div class="card-media swoosh-only" data-cms-image="mehr-als-produkte">
+        <img src="assets/swoosh.svg" alt="" />
       </div>
     </article>
   </main>

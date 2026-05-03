@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <radialGradient id="bg" cx="55%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#2a2a2a"/>
+      <stop offset="60%" stop-color="#0e0e0e"/>
+      <stop offset="100%" stop-color="#000"/>
+    </radialGradient>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ff8c1a"/>
+      <stop offset="100%" stop-color="#d92a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <g stroke="#ff6a13" stroke-linecap="round" opacity="0.55">
+    <line x1="-40" y1="120" x2="700" y2="-100" stroke-width="2"/>
+    <line x1="-40" y1="240" x2="700" y2="0" stroke-width="3"/>
+    <line x1="-40" y1="380" x2="700" y2="160" stroke-width="2"/>
+    <line x1="-40" y1="520" x2="700" y2="280" stroke-width="3"/>
+  </g>
+  <!-- product silhouettes -->
+  <g transform="translate(170,260)">
+    <rect x="0" y="0" width="120" height="180" rx="8" fill="#1c1c1c" stroke="#333"/>
+    <rect x="14" y="22" width="92" height="18" fill="#fff" opacity="0.85"/>
+    <rect x="14" y="48" width="60" height="10" fill="#ff6a13"/>
+    <text x="60" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="800" fill="#fff">AMINO</text>
+    <text x="60" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="800" fill="#fff">PATTERN</text>
+    <path d="M40 150 L90 150 L75 168 L55 168 Z" fill="url(#g)"/>
+  </g>
+  <g transform="translate(310,300)">
+    <rect x="0" y="0" width="80" height="140" rx="6" fill="#181818" stroke="#333"/>
+    <rect x="10" y="18" width="60" height="12" fill="#fff" opacity="0.85"/>
+    <text x="40" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="800" fill="#fff">WHEY</text>
+    <text x="40" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="800" fill="#fff">ISOLATE</text>
+  </g>
+  <g transform="translate(410,330)">
+    <ellipse cx="35" cy="110" rx="35" ry="8" fill="#000" opacity="0.5"/>
+    <rect x="0" y="0" width="70" height="110" rx="6" fill="#222"/>
+    <rect x="0" y="0" width="70" height="20" rx="6" fill="#111"/>
+  </g>
+  <!-- swoosh accent -->
+  <g transform="translate(60,180)" opacity="0.8">
+    <path d="M0 80 A80 80 0 0 1 80 0" fill="none" stroke="#ff6a13" stroke-width="6" stroke-linecap="round"/>
+    <path d="M20 100 A60 60 0 0 1 80 40" fill="none" stroke="#ff6a13" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

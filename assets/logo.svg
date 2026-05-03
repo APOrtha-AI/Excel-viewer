@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" aria-label="APOrtha Sports">
+  <g font-family="Helvetica, Arial, sans-serif" font-weight="800">
+    <text x="6" y="30" font-size="22" fill="#111">APOrtha</text>
+    <line x1="6" y1="36" x2="120" y2="36" stroke="#d92a1a" stroke-width="3"/>
+    <text x="78" y="52" font-size="14" font-style="italic" fill="#d92a1a">Sports</text>
+  </g>
+</svg>
